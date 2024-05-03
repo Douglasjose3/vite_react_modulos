@@ -1,0 +1,30 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.listItem {
+    list-style: none;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.1)
+}
+
+.itemName b, .itemLinguage b {
+    margin-right: 4px;
+}
+
+
+.itemLink {
+    display: block;
+    background-color: var(--corSecundaria);
+    color: var(--corDeApoio);
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 8px;
+}
